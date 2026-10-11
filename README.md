@@ -1,12 +1,12 @@
-# fart-loop
+# focus-loop
 
 Plays a random sound from `sounds/` every 2-8 seconds, at afplay volume 0.8.
 System output volume is not changed. macOS only (`afplay`).
 
 ## Run and stop
 
-    nohup ~/Developer/tools/fart-loop/fart-loop.sh >/dev/null 2>&1 &
-    pkill -f fart-loop.sh
+    nohup ~/Developer/tools/focus-loop/focus-loop.sh >/dev/null 2>&1 &
+    pkill -f focus-loop.sh
 
 ## Licence
 

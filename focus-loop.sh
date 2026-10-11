@@ -1,6 +1,6 @@
 #!/bin/bash
 # Plays a random file from sounds/ every 2-8 seconds at afplay volume 0.8.
-# Stop with: pkill -f fart-loop.sh
+# Stop with: pkill -f focus-loop.sh
 
 DIR="$(cd "$(dirname "$0")" && pwd)"
 SOUNDS="$DIR/sounds"
